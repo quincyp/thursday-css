@@ -1,11 +1,33 @@
-/* Background
+/* Background */
 
-{ background-color: #CCC; }
-{ background-img: url('image.png'); }
-{ background-size: 80px 60px; }
-{ background-repeat: no-repeat }
+body { background-color: rgba(0,0,25,.5);}
+header { 
+	background-color: rgba(0,0,125,.5); 
+	padding: 25px;
+	max-width: 750px;
+	min-width: 400px;
+	margin: 0pc 10% 10% 10%;
+	/*display: none inline block;*/
+	float: left;
+}
 
+.preamble{
+	clear: right;
+	width: 500px;
+	height: 200px;
+	background-color: rgba(0,125,0,.5);
+	overflow: scroll;
+}
+body { 
+	background-image: url('../woodpanel.png');
+	background-size: 800px 600px;
+	background-repeat: no-repeat;
+
+	}
+header h2{opacity: 0.1;background-color: yellow;}
+/*{ background-repeat: no-repeat }
 */
+
 
 /* Sizing, overflow, display
 
