@@ -1,0 +1,27 @@
+/* Background
+
+{ background-color: #CCC; }
+{ background-img: url('image.png'); }
+{ background-size: 80px 60px; }
+{ background-repeat: no-repeat }
+
+*/
+
+/* Sizing, overflow, display
+
+{ box-sizing: border-box; }
+{ overflow: (auto, hidden, visible, scroll); }
+display: (block, inline, list-item, none);
+
+*/
+
+/* Transistions
+
+img:hover { 
+-webkit-transform: scale(1.1, 1.1); 
+-moz-transform: scale(1.1, 1.1); 
+-ms-transform: scale(1.1, 1.1); 
+transform: scale(1.1, 1.1); 
+}
+
+*/

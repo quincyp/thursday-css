@@ -1,0 +1,186 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file is a clean copy by Jacob A. Morris, based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the html as well. */
+
+/* Fonts!!!!!!!!!!!!!! */
+
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: Helvetica, Arial, sans-serif;
+	color: blue;  
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+
+	}
+
+p::first-line {
+	color: red;
+	font-size: 5em;
+
+
+}
+
+ul li { display: inline; border: 1px solid blue;}
+
+ul li:last-child {
+	color: purple;
+	font-size: 3em;
+	border: 1px solid purple;
+}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	/* CSS Zen Garden Style starts here */
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(234, 46, 73);
+	background-image: none;
+	background-origin: padding-box;
+	background-size: auto;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-family: tablet-gothic, verdana, arial, sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	height: 65.375px;
+	letter-spacing: 2px;
+	margin-bottom: 26.4000015258789px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 13.2000007629395px;
+	padding-left: 26.4000015258789px;
+	padding-right: 26.4000015258789px;
+	padding-top: 13.2000007629395px;
+	text-transform: uppercase;
+	width: 284.78125px;
+	/* CSS Zen Garden Style ends here */
+}
+
+a:link { 
+	font-weight: 100; 
+	text-decoration: none; 
+	color: #0ce7ab;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	/* color: yellow; */
+	/* font-size: 7em; */
+	}
+abbr {
+	/* border-bottom: none; */
+	border-bottom: dashed;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+
+	}
+
+.intro { 
+	
+	}
+
+header h1 { 
+	}
+header h2 { 
+
+	}
+header {
+
+}
+
+.summary {
+	width: 350px;
+	border-color: red;
+	border-style: dotted;
+	padding: 125px;
+	margin: 50px;
+	}
+.summary p {
+	color: green;
+	}
+
+.preamble {
+
+	}
+.supporting {	
+
+	}
+
+footer { 
+
+	}
+footer a:link, footer a:visited { 
+
+	}
+
+.sidebar {
+
+	}
+.sidebar .wrapper { 
+
+	}
+.sidebar h3.select { 
+
+	}
+.sidebar h3.archives { 
+
+	}
+.sidebar h3.resources { 
+
+	}
+
+
+.sidebar ul {
+
+	}
+.sidebar li {
+
+	}
+.sidebar li a:link {
+
+	}
+.sidebar li a:visited {
+
+	}
+
+
+.extra1 {
+
+	}
